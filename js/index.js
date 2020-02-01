@@ -67,16 +67,28 @@ window.addEventListener('scroll', function() {
   var element = document.querySelector('#about-me');
   var position = element.getBoundingClientRect();
 
-  if(position.top >= 0 && position.bottom <= window.innerHeight) {
+  // if(position.top >= 0 && position.bottom <= window.innerHeight) {
+  //   setTimeout(function(){
+  //       contribution_odometer.innerHTML = 1522;
+  //   }, 1000);
+  //
+  //   setTimeout(function(){
+  //       repo_odometer.innerHTML = 44;
+  //   }, 1000);
+  //   setTimeout(function(){
+  //       years_odometer.innerHTML = 1;
+  //   }, 1000);
+  // }
+  if(position.top < window.innerHeight && position.bottom >= 0) {
     setTimeout(function(){
-        contribution_odometer.innerHTML = 1522;
-    }, 1000);
+          contribution_odometer.innerHTML = 1522;
+      }, 1500);
 
-    setTimeout(function(){
-        repo_odometer.innerHTML = 44;
-    }, 1000);
-    setTimeout(function(){
-        years_odometer.innerHTML = 1;
-    }, 1000);
-  }
+      setTimeout(function(){
+          repo_odometer.innerHTML = 44;
+      }, 1500);
+      setTimeout(function(){
+          years_odometer.innerHTML = 1;
+      }, 1500);
+	}
 });

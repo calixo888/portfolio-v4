@@ -63,6 +63,14 @@
     text-align: center;
   }
 
+  .statistics-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .statistics-container div {
+    text-align: left;
+  }
+
 
   /* MY SKILLS */
   .skills-container-web {
