@@ -177,7 +177,7 @@ li, p {
   color: var(--color-green);
 }
 
-.skills-container {
+.skills-container-web {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }

@@ -1,0 +1,128 @@
+@media (min-width: 1000px) {
+  .skills-container-web {
+    display: grid;
+  }
+
+  .skills-container-mobile {
+    display: none;
+  }
+}
+
+
+@media (max-width: 500px) {
+  /* GLOBAL STYLES */
+  section {
+    padding: 50px 20px;
+  }
+
+
+  /* NAVIGATION */
+  .navigation__button {
+    top: 1.5rem !important;
+    right: 1.5rem !important;
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+
+  .navigation__background {
+    top: 2rem !important;
+    right: 2rem !important;
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+
+  .navigation__icon {
+    margin-top: 2rem !important;
+  }
+
+  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+    width: 2rem !important;
+  }
+
+  .navigation__list {
+    padding: 50px 0;
+  }
+
+  .navigation__link {
+    font-size: 1.5rem !important;
+  }
+
+
+  /* HEADER */
+  .horizontal-container {
+    width: 100% !important;
+  }
+
+
+  /* ABOUT ME */
+  .about-me-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .calix-container {
+    text-align: center;
+  }
+
+
+  /* MY SKILLS */
+  .skills-container-web {
+    display: none;
+  }
+
+  .skills-container-mobile {
+    display: block;
+  }
+
+  .skill {
+    border-left: none !important;
+    border-right: none !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .skill-icon {
+    margin-right: 15px !important;
+    margin-left: 0 !important;
+  }
+
+  .right {
+    transform: translateX(10px);
+  }
+
+  .right .skill-icon {
+    margin-right: 20px !important;
+  }
+
+  .left li {
+    justify-content: flex-start;
+  }
+
+
+  /* WORK EXPERIENCE */
+  .experiences-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+
+  /* PAST COMPETITIONS */
+  .competitions-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+
+  /* FUTURE VENTURES */
+  .future-ventures-container {
+    margin: 0 20px;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+
+  /* CONTACT ME */
+  .contact-me h1 {
+    margin-bottom: 20px;
+  }
+
+  .contact-container {
+    grid-gap: 20px;
+  }
+}
