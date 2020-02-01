@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="icon" href="img/calix-icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/toggle.css">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <title>Calix Huang</title>
+  </head>
+  <body>
+    <div class="navigation">
+            <input style="display: none;" type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about-me" class="navigation__link">About Me</a></li>
+                    <li class="navigation__item"><a href="#my-projects" class="navigation__link">My Projects</a></li>
+                    <li class="navigation__item"><a href="#my-skills" class="navigation__link">My Skills</a></li>
+                    <li class="navigation__item"><a href="#work-experience" class="navigation__link">Work Experience</a></li>
+                    <li class="navigation__item"><a href="#past-competitions" class="navigation__link">Past Competitions</a></li>
+                    <li class="navigation__item"><a href="#future-ventures" class="navigation__link">Future Ventures</a></li>
+                    <li class="navigation__item"><a href="#contact-me" class="navigation__link">Contact Me</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+    <section class="header" data-color="dark">
+      <div class="container">
+        <div class="horizontal-container w-50">
+          <h1 class="main-heading">Calix Huang</h1>
+          <h4>A self-taught computer programmer with a passion for entrepreneurship.</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me" class="about-me" data-color="dark">
+      <h1 class="heading-light">About Me</h1>
+      <div class="container">
+        <div class="about-me-container">
+          <div class="calix-container">
+            <img class="calix-image" src="img/calix.jpeg" alt="">
+          </div>
+          <div class="calix-description">
+            Hi! My name is Calix Huang, I'm 15 years old, and I love programming! I am homeschooled as a part of an independent study online program called Connections Academy. I am completely self-taught, using online resources to teach myself every single thing I know about software engineering.
+            <div class="my-4"></div>
+            I also love entrepreneurship, so I try to model my projects around useful ideas that can be deployed to users around the globe. My skills in full-stack development allow me to take a project from an idea to a product.
+            <div class="statistics-container">
+              <div class="num-commits"><span class="odometer" id="contribution_odometer">0</span> contributions in the last year</div>
+              <div class="num-repos"><span class="odometer" id="repo_odometer">0</span>  Respositories</div>
+              <div class="years-of-programming"><span class="odometer" id="years_odometer">0</span> Year of Programming</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="my-projects" class="my-projects" data-color="light">
+      <h1 class="heading-dark">My Projects</h1>
+      <div class="projects-container">
+        <div class="container">
+          <div class="project-container">
+            <div class="project">
+              <img class="project-logo" src="img/logos/grocerymeals.png" alt="Project Logo">
+              <h5 class="project-name">GroceryMeals</h5>
+              <p class="project-description">
+                GroceryMeals is an online platform that gathers the best grocery prices and matches them with recipes you can make at home! I owe the whole idea of GroceryMeals to my aunt, and GroceryMeals uses the spoonacularAPI and NutritionX API, as well as GroceryPricerAPI.
+              </p>
+              <div class="project-btns">
+                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/grocerymeals">
+                  <img class="github-logo" src="img/social-media/github.png" alt="">
+                  GitHub Repo
+                </a>
+                <a class="btn btn-info project-btn" href="https://www.grocerymeals.me/">Check Out Project</a>
+              </div>
+            </div>
+            <div class="project">
+              <img class="project-logo" src="img/logos/grocerypricerapi.png" alt="Project Logo">
+              <h5 class="project-name">GroceryPricerAPI</h5>
+              <p class="project-description">
+                GroceryPricerAPI exists as a private API for GroceryMeals, but has also been optimized for free, public use. All grocery pricing data was programmatically scraped using scripted webscraping algorithms using Selenium Webdriver, BeautifulSoup HTML Parser, and Python.
+              </p>
+              <div class="project-btns">
+                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/grocerypricerapi">
+                  <img class="github-logo" src="img/social-media/github.png" alt="">
+                  GitHub Repo
+                </a>
+                <a class="btn btn-info project-btn" href="http://www.grocerypricerapi.online/">Check Out Project</a>
+              </div>
+            </div>
+            <div class="project">
+              <img class="project-logo" src="img/logos/hackcollab.png" alt="Project Logo">
+              <h5 class="project-name">HackCollab</h5>
+              <p class="project-description">
+                HackCollab is a web-based hackathon organizer, allowing competitiors to form teams and discuss project ideas before the event even starts. By doing this, we eliminate the need for awkward team mixers, and wasted time discussing ideas during valuable project-building time.
+              </p>
+              <div class="project-btns">
+                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/hackcollab">
+                  <img class="github-logo" src="img/social-media/github.png" alt="">
+                  GitHub Repo
+                </a>
+                <a class="btn btn-info project-btn" href="http://www.hackcollab.io/">Check Out Project</a>
+              </div>
+            </div>
+            <div class="project">
+              <img class="project-logo" src="img/logos/anojs.png" alt="Project Logo">
+              <h5 class="project-name">Ano.js</h5>
+              <p class="project-description">
+                Ano.js is a free, open source web animation platform that allows users to seamlessly integrate simple and beautiful web animations into their websites with only two lines of code. All animations have been pre-made with HTML5 canvas, and the animation code is public on the GitHub repository.
+              </p>
+              <div class="project-btns">
+                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/anojs">
+                  <img class="github-logo" src="img/social-media/github.png" alt="">
+                  GitHub Repo
+                </a>
+                <a class="btn btn-info project-btn" href="https://www.anojs.com/">Check Out Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="my-skills" class="my-skills" data-color="dark">
+      <h1 class="heading-light">My Skills</h1>
+      <div class="container">
+        <div class="skills-container">
+          <div class="left">
+            <li class="skill">
+              Full-Stack Web Development
+              <img class="skill-icon" src="img/code.png" alt="">
+            </li>
+            <li class="skill">
+              HTML/CSS/Javascript
+              <img class="skill-icon" src="img/code.png" alt="">
+            </li>
+            <li class="skill">
+              Python
+              <img class="skill-icon" src="img/code.png" alt="">
+            </li>
+            <li class="skill">
+              Pythonic Web Frameworks (Django, Flask)
+              <img class="skill-icon" src="img/code.png" alt="">
+            </li>
+          </div>
+          <div class="right">
+            <li class="skill">
+              <img class="skill-icon" src="img/design.png" alt="">
+              UI/UX Design
+            </li>
+            <li class="skill">
+              <img class="skill-icon" src="img/design.png" alt="">
+              UI Wireframing and Prototyping (Adobe Xd)
+            </li>
+            <li class="skill">
+              <img class="skill-icon" src="img/design.png" alt="">
+              Digital Marketing
+            </li>
+            <li class="skill">
+              <img class="skill-icon" src="img/design.png" alt="">
+              SEO Integration
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work-experience" class="work-experience" data-color="light">
+      <h1 class="heading-dark">Work Experience</h1>
+      <div class="container">
+        <div class="experiences-container">
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">Janurary 2020 - Present</strong>
+              <h3 class="experience-title">Website Designer/Developer Intern - UVFAB Systems Inc.</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At UVFAB Systems Inc., my job is to work with one other intern to completely redesign the corporate website using Wordpress and its respective plugins. We are currently trying to migrate all of the data and information from the old website into the new one which is in progress, as well as improve performance speed and initial load time.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">November 2019 - Present</strong>
+              <h3 class="experience-title">Frontend Web Developer Intern - Apollo DAE Inc.</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At Apollo DAE Inc., my job is to work on a team of different types of interns to build an MVP. Currently I'm learning Vue.js and Google Firebase to work on a project with about 6-8 other interns. The MVP will then be reviewed and will be escalated into a SaaS business if deemed successful.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">December 2019 - Present</strong>
+              <h3 class="experience-title">Software Development Mentor - Codeninjas</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At Codeninjas, my job is to tutor and mentor kids aged 7-14 years old in a digital curriculum created by Codeninjas Corporate. Using digital e-books and a web-based GDP (Game Development Program) to complete this cirriculum and then help students through it.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">August 2019 - Present</strong>
+              <h3 class="experience-title">UI/UX Designer/Developer - Project EdConnect</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At EdConnect, my job is to wireframe, prototype, and then create the entire UI for the software and landing page. I also work with the backend developers to help integrate the data transfer from backend to frontend, and display it an a user-friendly way.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">September 2018 - Present</strong>
+              <h3 class="experience-title">Web Developer/Administrator - Synergize Ventures</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At Synergize Ventures, my job is to create, design, modify, and maintain the official corporate landing page. I handle the development side, as well the DevOps procedures such as configuring the DNS nameservers or re-configuring the website to new web hosting services.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">March 2019 - Present</strong>
+              <h3 class="experience-title">Teen Leader Volunteer - Trivalley CoderDojo</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At Trivalley CoderDojo, I volunteer as a Teen Leader on the Teen Leadership Council, a group of high schoolers that help partially run the club and help make decisions to determine the course of the organization. I play an in-session role, helping mentor kids and facilitating parents, students, and other volunteers.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience-head">
+              <strong class="experience-date">August 2019 - Present</strong>
+              <h3 class="experience-title">Student Leader - TeenTechSF GLOBAL</h3>
+            </div>
+            <div class="experience-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At TeenTechSF GLOBAL, I am a volunteer to help organize and speak at STEM events in which TeenTechSF is either a partner, sponsor, or affiliate of. Our main mission is to spread the word and knowledge of STEM fields, specifically software and hardware products.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="past-competitions" class="past-competitions" data-color="dark">
+      <h1 class="heading-light">Past Competitions</h1>
+      <div class="container">
+        <div class="competitions-container">
+          <div class="competition">
+            <div class="competition-head">
+              <h5 class="competition-date">November 16-17, 2019</h5>
+              <h3 class="competition-title">Atoms & Bits - First Place and Best Website</h3>
+            </div>
+            <div class="competition-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At Atoms & Bits, I formed and lead a team of three other people, and together we created Ano.js. I handled all of the product design and creation, while the others focused on the presentation and financial part of the project. We won the entire competition due to the nice UI, simplistic functionality, and the amazing business model.
+              </p>
+            </div>
+          </div>
+          <div class="competition">
+            <div class="competition-head">
+              <h5 class="competition-date">October 12-13, 2019</h5>
+              <h3 class="competition-title">TeenTechSF Civic Hackathon - Second Place</h3>
+            </div>
+            <div class="competition-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                At the TeenTechSF Civic Hackathon, I formed and lead a team of two other people, and we created Collaboratory. Collaboratory is a web-based project organizer, making working on projects with others easier to carry out. Unfortunately, the code was corrupted and lost shortly after, so it is not up for reference.
+              </p>
+            </div>
+          </div>
+          <div class="competition">
+            <div class="competition-head">
+              <h5 class="competition-date">April 20-21, 2019</h5>
+              <h3 class="competition-title">Trivalley Crypto Hacks - Most Creative</h3>
+            </div>
+            <div class="competition-bottom">
+              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <br>
+              <p style="display: none;" id="more">
+                Trivalley Crypto Hacks was my first hackathon, and I was invited by friend who was organizing the event. I was on a team of one, and I created a facial recognition program, where a person scans their face for data samples and then their face will be detected and labelled in real time. My project won an honorable mention, which is not bad for a first.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="misc-competitions-container">
+          <h3 class="mt-5">Other Competitions</h3>
+          <ul class="misc-competitions">
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Trivalley Expo Hacks 2019 - Mentor</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>AngelHacks - Competitor</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Draper University Hackathon - Competitor</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Hackmobility - Guest</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Solarhacks - Mentor</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Gigahacks - Mentor</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>DVHacks - Guest</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="future-ventures" class="future-ventures" data-color="light">
+      <h1 class="heading-dark" style="margin-bottom: 25px;">Future Ventures</h1>
+      <div class="future-ventures-container">
+        <div>
+          <h3>Things to Learn</h3>
+          <ul class="future-subjects">
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Product Design</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Digital Advertising</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Basic Graphic Design</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Web Application Scalability</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Data Structures and Algorithms</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Things to Accomplish</h3>
+          <ul class="future-subjects">
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Software Engineering Internship for Fortune 500 company</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Attend MIT's LaunchX entrepreneurial summer program</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Help organize a hackathon</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Things to Create</h3>
+          <ul class="future-subjects">
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Confidential ;)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me" class="contact-me" style="background-color: var(--color-blue);">
+      <h1 class="heading-light">Let's Get in Touch!</h1>
+      <div class="container">
+        <div class="contact-container">
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/calix-huang/">
+              <img class="social-media-icon" src="img/social-media/linkedin.png" alt="linkedin logo">
+            </a>
+            <span class="social-media-username">
+              <a class="social-media-link" href="https://www.linkedin.com/in/calix-huang/">@calix-huang</a>
+            </span>
+          </div>
+          <div class="social-media">
+            <a href="https://github.com/calixo888">
+              <img class="social-media-icon" src="img/social-media/github.png" alt="github logo">
+            </a>
+            <span class="social-media-username">
+              <a class="social-media-link" href="https://github.com/calixo888">@calixo888</a>
+            </span>
+          </div>
+          <div class="social-media">
+            <a href="#">
+              <img class="social-media-icon" src="img/social-media/discord.png" alt="discord logo">
+            </a>
+            <span class="social-media-username">
+              <a class="social-media-link" href="#">@calixo888#1218</a>
+            </span>
+          </div>
+          <div class="social-media">
+            <a href="https://www.instagram.com/calix_huang/">
+              <img class="social-media-icon" src="img/social-media/instagram.png" alt="instagram logo">
+            </a>
+            <span class="social-media-username">
+              <a class="social-media-link" href="https://www.instagram.com/calix_huang/">@calix_huang</a>
+            </span>
+          </div>
+          <div class="social-media">
+            <a href="https://www.twitch.tv/calix_huang">
+              <img style="transform: translateY(5px);" class="social-media-icon" src="img/social-media/twitch.png" alt="twitch logo">
+            </a>
+            <span class="social-media-username">
+              <a class="social-media-link" href="https://www.twitch.tv/calix_huang">@calix_huang</a>
+            </span>
+          </div>
+          <div class="social-media">
+            <a href="mailto:calix.huang1@gmail.com">
+              <img class="social-media-icon" src="img/social-media/email.png" alt="email logo">
+            </a>
+            <span class="social-media-username">
+              <a class="social-media-link" href="mailto:calix.huang1@gmail.com">calix.huang1@gmail.com</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/three.r95.min.js"></script>
+  <script src="js/vanta.rings.min.js"></script>
+  <script src="js/index.js" charset="utf-8"></script>
+</html>

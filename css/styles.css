@@ -1,0 +1,338 @@
+/* GLOBAL STYLES */
+:root {
+  --color-green: #56FFD6;
+  --color-blue: #072740;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
+
+section {
+  padding: 50px;
+}
+
+ul {
+  padding-left: 60px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
+
+/* BACKGROUND COLORS */
+.color-light {
+  background-color: var(--color-green);
+}
+
+.color-dark {
+  background-color: var(--color-blue);
+}
+
+
+/* HEADERS */
+.main-heading {
+  font-size: 65px;
+  color: var(--color-green);
+  margin-bottom: 20px;
+}
+.heading-light {
+  font-size: 50px;
+  color: var(--color-green);
+  margin-bottom: 50px;
+}
+
+.heading-dark {
+  font-size: 50px;
+  color: var(--color-blue);
+  margin-bottom: 50px;
+}
+
+.horizontal-container * {
+  text-shadow: 0 3px 5px rgba(0,0,0,.5);
+}
+
+
+/* HEADER SECTION */
+.header * {
+  color: var(--color-green);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* ABOUT ME SECTION */
+.about-me-container {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.about-me-container * {
+  color: var(--color-green);
+  font-size: 20px;
+}
+
+.calix-container {
+  /* text-align: center; */
+}
+
+.calix-image {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid var(--color-green);
+}
+
+.statistics-container {
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.statistics-container * {
+  font-weight: bold;
+}
+
+.odometer {
+  transform: translateY(-2px);
+}
+
+.num-commits {
+  text-align: left;
+}
+
+.num-repos {
+  text-align: center;
+}
+
+.years-of-programming {
+  text-align: right;
+}
+
+
+/* MY PROJECTS */
+.my-projects * {
+  color: var(--color-blue);
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
+}
+
+.project-logo {
+  height: 100px;
+}
+
+.project-name {
+  margin: 15px 0;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-description {
+  font-size: 19px;
+}
+
+.project-btns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 5px;
+}
+
+.github-btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-logo {
+  height: 20px;
+  margin-right: 5px;
+}
+
+
+/* MY SKILLS */
+.my-skills * {
+  color: var(--color-green);
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left .skill-icon {
+  height: 50px;
+}
+
+.right .skill-icon {
+  height: 35px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  list-style: none;
+  height: 75px;
+}
+
+.left li {
+  padding-right: 50px;
+  justify-content: flex-end;
+  border-right: 1px solid var(--color-green);
+}
+
+.right li {
+  padding-left: 50px;
+  justify-content: flex-start;
+  border-left: 1px solid var(--color-green);
+}
+
+.left img {
+  margin-left: 15px;
+}
+
+.right img {
+  margin-right: 15px;
+}
+
+
+/* WORK EXPERIENCE */
+.work-experience * {
+  color: var(--color-blue);
+}
+
+.experiences-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 50px;
+}
+
+.experience-head {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-blue);
+}
+
+.experience-bottom {
+  padding: 10px 0;
+  border-top: 1px solid var(--color-blue);
+}
+
+.see-more {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0 !important;
+}
+
+.see-more:active, .see-more:focus {
+  outline: none;
+}
+
+/* PAST COMPETITIONS */
+.past-competitions * {
+  color: var(--color-green);
+}
+
+.competitions-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 50px;
+}
+
+.competition-head {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-green);
+}
+
+.competition-bottom {
+  padding: 10px 0;
+  border-top: 1px solid var(--color-green);
+}
+
+.see-more {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0 !important;
+  font-weight: bold;
+  font-size: 22.5px;
+  margin-bottom: 10px;
+}
+
+.see-more:active, .see-more:focus {
+  outline: none;
+}
+
+
+/* FUTURE VENTURES */
+.future-ventures * {
+  color: var(--color-blue);
+}
+
+.future-ventures-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
+  margin: 0 50px;
+}
+
+
+/* CONTACT ME */
+.contact-me * {
+  color: var(--color-green);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 40px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-media-icon {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.social-media-link {
+  color: var(--color-blue);
+  background-color: rgba(86, 255, 213, 0.5);
+  transition: all .2s;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.social-media-link:hover {
+  color: var(--color-blue);
+  text-decoration: none;
+  background-color: rgba(86, 255, 213, 0.8);
+}
