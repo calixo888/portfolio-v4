@@ -59,6 +59,12 @@ li, p {
   margin-bottom: 50px;
 }
 
+.heading-icon {
+  height: 40px;
+  transform: translateY(-7px);
+  margin-right: 5px;
+}
+
 .horizontal-container * {
   text-shadow: 0 3px 5px rgba(0,0,0,.5);
 }
@@ -133,31 +139,32 @@ li, p {
   color: var(--color-blue);
 }
 
-.project-container {
+.project {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 50px;
+  grid-template-columns: 10% 1fr;
+  grid-gap: 75px;
+}
+
+.project:not(:last-child) {
+  margin-bottom: 75px;
 }
 
 .project-logo {
-  height: 100px;
+  width: 100%;
 }
 
 .project-name {
-  margin: 15px 0;
-}
-
-.project {
-  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .project-description {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .project-btns {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 5px;
 }
 
@@ -169,7 +176,8 @@ li, p {
 
 .github-logo {
   height: 20px;
-  margin-right: 5px;
+  margin-right: 6px;
+  transform: translateY(-1px);
 }
 
 
@@ -242,6 +250,10 @@ li, p {
   border-top: 1px solid var(--color-blue);
 }
 
+.experience-org {
+  margin-top: 5px;
+}
+
 .see-more {
   background-color: transparent;
   border: none;
@@ -249,8 +261,20 @@ li, p {
   padding: 0 !important;
 }
 
+.see-more img {
+  width: 15px;
+  transform: translateY(-1px);
+  margin-right: 5px;
+}
+
 .see-more:active, .see-more:focus {
   outline: none;
+}
+
+.date-icon, .location-icon {
+  width: 20px;
+  transform: translateY(-2px);
+  margin-right: 5px;
 }
 
 /* PAST COMPETITIONS */

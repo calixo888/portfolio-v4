@@ -34,11 +34,24 @@ function myFunction(event) {
   var btnText = event;
   var extraText = btnText.parentNode.querySelector("p");
 
+  section_class = event.parentNode.parentNode.parentNode.parentNode.parentNode.className
+  console.log(section_class)
+
   if (extraText.style.display !== "none") {
-    btnText.innerHTML = "&rarr; More Info";
+    if (section_class == "past-competitions") {
+      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/right-arrow-light.png' alt=''> See More";
+    }
+    else {
+      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/right-arrow-dark.png' alt=''> See More";
+    }
     extraText.style.display = "none";
   } else {
-    btnText.innerHTML = "&darr; Less Info";
+    if (section_class == "past-competitions") {
+      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/down-arrow-light.png' alt=''> See Less";
+    }
+    else {
+      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/down-arrow-dark.png' alt=''> See Less";
+    }
     extraText.style.display = "inline";
   }
 }
@@ -61,24 +74,23 @@ $(document).ready(function(){
         $(".navigation__checkbox").prop("checked", false);
         console.log($(".navigation__checkbox").val())
     });
+
+    $('.project a').on('click', function(event) {
+        event.preventDefault();
+        var hash = this.hash;
+        if (hash) {
+          $('html, body').animate({scrollTop: $(hash).offset().top}, 900);
+        }
+        else {
+          open(this.getAttribute('href'));
+        }
+    });
 })
 
 window.addEventListener('scroll', function() {
   var element = document.querySelector('#about-me');
   var position = element.getBoundingClientRect();
 
-  // if(position.top >= 0 && position.bottom <= window.innerHeight) {
-  //   setTimeout(function(){
-  //       contribution_odometer.innerHTML = 1522;
-  //   }, 1000);
-  //
-  //   setTimeout(function(){
-  //       repo_odometer.innerHTML = 44;
-  //   }, 1000);
-  //   setTimeout(function(){
-  //       years_odometer.innerHTML = 1;
-  //   }, 1000);
-  // }
   if(position.top < window.innerHeight && position.bottom >= 0) {
     setTimeout(function(){
           contribution_odometer.innerHTML = 1522;

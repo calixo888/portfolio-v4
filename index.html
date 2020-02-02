@@ -27,13 +27,34 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#about-me" class="navigation__link">About Me</a></li>
-                    <li class="navigation__item"><a href="#my-projects" class="navigation__link">My Projects</a></li>
-                    <li class="navigation__item"><a href="#my-skills" class="navigation__link">My Skills</a></li>
-                    <li class="navigation__item"><a href="#work-experience" class="navigation__link">Work Experience</a></li>
-                    <li class="navigation__item"><a href="#past-competitions" class="navigation__link">Past Competitions</a></li>
-                    <li class="navigation__item"><a href="#future-ventures" class="navigation__link">Future Ventures</a></li>
-                    <li class="navigation__item"><a href="#contact-me" class="navigation__link">Contact Me</a></li>
+                    <li class="navigation__item"><a href="#about-me" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/user-dark.png" alt="">
+                      About me
+                    </a></li>
+                    <li class="navigation__item"><a href="#my-projects" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/project-dark.png" alt="">
+                      My Projects
+                    </a></li>
+                    <li class="navigation__item"><a href="#my-skills" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/skill-dark.png" alt="">
+                      My Skills
+                    </a></li>
+                    <li class="navigation__item"><a href="#work-experience" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/portfolio-dark.png" alt="">
+                      Work Experience
+                    </a></li>
+                    <li class="navigation__item"><a href="#past-competitions" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/medal-dark.png" alt="">
+                      Past Competitions
+                    </a></li>
+                    <li class="navigation__item"><a href="#future-ventures" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/rocket-dark.png" alt="">
+                      Future Ventures
+                    </a></li>
+                    <li class="navigation__item"><a href="#contact-me" class="navigation__link">
+                      <img class="heading-icon" src="img/icons/section-icons/contact-dark.png" alt="">
+                      Contact Me
+                    </a></li>
                     </ul>
             </nav>
         </div>
@@ -48,7 +69,10 @@
     </section>
 
     <section id="about-me" class="about-me" data-color="dark">
-      <h1 class="heading-light">About Me</h1>
+      <h1 class="heading-light">
+        <img class="heading-icon" src="img/icons/section-icons/user-light.png" alt="">
+        About Me
+      </h1>
       <div class="container">
         <div class="about-me-container">
           <div class="calix-container">
@@ -69,78 +93,149 @@
     </section>
 
     <section id="my-projects" class="my-projects" data-color="light">
-      <h1 class="heading-dark">My Projects</h1>
+      <h1 style="margin-bottom: 0 !important;" class="heading-dark">
+        <img class="heading-icon" src="img/icons/section-icons/project-dark.png" alt="">
+        My Projects
+      </h1>
       <div class="projects-container">
         <div class="container">
+          <p class="mt-4 mb-5">
+            These are all of the projects I've completed! I always maintain and improve each one, and I am always open to others joining the team or helping test out the software!
+          </p>
           <div class="project-container">
             <div class="project">
               <img class="project-logo" src="img/logos/sapi.png" alt="Project Logo">
-              <h5 class="project-name">SAPI</h5>
-              <p class="project-description">
-                SAPI is a completely free API service to store sample data for prototyping and test data, as well as single-variable metrics. SAPI stands for Storage API, and it is just that. SAPI stores sample and test data during the development phase and data is transferred via HTTP requests.
-              </p>
-              <div class="project-btns">
-                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/sapi">
-                  <img class="github-logo" src="img/social-media/github.png" alt="">
-                  GitHub Repo
-                </a>
-                <a class="btn btn-info project-btn" href="http://www.sapi.host/">Check Out Project</a>
+              <div>
+                <h5 class="project-name">SAPI</h5>
+                <p class="project-description">
+                  SAPI is a completely free API service to store sample data for prototyping and test data, as well as single-variable metrics. SAPI stands for Storage API, and it is just that. SAPI stores sample and test data during the development phase and data is transferred via HTTP requests.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/sapi">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn" href="http://www.sapi.host">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
               </div>
             </div>
             <div class="project">
               <img class="project-logo" src="img/logos/grocerymeals.png" alt="Project Logo">
-              <h5 class="project-name">GroceryMeals</h5>
-              <p class="project-description">
-                GroceryMeals is an online platform that gathers the best grocery prices and matches them with recipes you can make at home! I owe the whole idea of GroceryMeals to my aunt, and GroceryMeals uses the spoonacularAPI and NutritionX API, as well as GroceryPricerAPI.
-              </p>
-              <div class="project-btns">
-                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/grocerymeals">
-                  <img class="github-logo" src="img/social-media/github.png" alt="">
-                  GitHub Repo
-                </a>
-                <a class="btn btn-info project-btn" href="https://www.grocerymeals.me/">Check Out Project</a>
+              <div>
+                <h5 class="project-name">GroceryMeals</h5>
+                <p class="project-description">
+                  GroceryMeals is an online platform that gathers the best grocery prices and matches them with recipes you can make at home! I owe the whole idea of GroceryMeals to my aunt, and GroceryMeals uses the spoonacularAPI and NutritionX API, as well as GroceryPricerAPI.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/grocerymeals">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn" href="https://www.grocerymeals.me/">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
               </div>
             </div>
             <div class="project">
               <img class="project-logo" src="img/logos/grocerypricerapi.png" alt="Project Logo">
-              <h5 class="project-name">GroceryPricerAPI</h5>
-              <p class="project-description">
-                GroceryPricerAPI exists as a private API for GroceryMeals, but has also been optimized for free, public use. All grocery pricing data was programmatically scraped using scripted webscraping algorithms using Selenium Webdriver, BeautifulSoup HTML Parser, and Python.
-              </p>
-              <div class="project-btns">
-                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/grocerypricerapi">
-                  <img class="github-logo" src="img/social-media/github.png" alt="">
-                  GitHub Repo
-                </a>
-                <a class="btn btn-info project-btn" href="http://www.grocerypricerapi.online/">Check Out Project</a>
+              <div>
+                <h5 class="project-name">GroceryPricerAPI</h5>
+                <p class="project-description">
+                  GroceryPricerAPI exists as a private API for GroceryMeals, but has also been optimized for free, public use. All grocery pricing data was programmatically scraped using scripted webscraping algorithms using Selenium Webdriver, BeautifulSoup HTML Parser, and Python.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/grocerypricerapi">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn" href="http://www.grocerypricerapi.online">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
               </div>
             </div>
             <div class="project">
               <img class="project-logo" src="img/logos/hackcollab.png" alt="Project Logo">
-              <h5 class="project-name">HackCollab</h5>
-              <p class="project-description">
-                HackCollab is a web-based hackathon organizer, allowing competitiors to form teams and discuss project ideas before the event even starts. By doing this, we eliminate the need for awkward team mixers, and wasted time discussing ideas during valuable project-building time.
-              </p>
-              <div class="project-btns">
-                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/hackcollab">
-                  <img class="github-logo" src="img/social-media/github.png" alt="">
-                  GitHub Repo
-                </a>
-                <a class="btn btn-info project-btn" href="http://www.hackcollab.io/">Check Out Project</a>
+              <div>
+                <h5 class="project-name">HackCollab</h5>
+                <p class="project-description">
+                  HackCollab is a web-based hackathon organizer, allowing competitiors to form teams and discuss project ideas before the event even starts. By doing this, we eliminate the need for awkward team mixers, and wasted time discussing ideas during valuable project-building time.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/hackcollab">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn" href="http://www.hackcollab.io">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
               </div>
             </div>
             <div class="project">
               <img class="project-logo" src="img/logos/anojs.png" alt="Project Logo">
-              <h5 class="project-name">Ano.js</h5>
-              <p class="project-description">
-                Ano.js is a free, open source web animation platform that allows users to seamlessly integrate simple and beautiful web animations into their websites with only two lines of code. All animations have been pre-made with HTML5 canvas, and the animation code is public on the GitHub repository.
-              </p>
-              <div class="project-btns">
-                <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/anojs">
-                  <img class="github-logo" src="img/social-media/github.png" alt="">
-                  GitHub Repo
-                </a>
-                <a class="btn btn-info project-btn" href="https://www.anojs.com/">Check Out Project</a>
+              <div>
+                <h5 class="project-name">Ano.js</h5>
+                <p class="project-description">
+                  Ano.js is a free, open source web animation platform that allows users to seamlessly integrate simple and beautiful web animations into their websites with only two lines of code. All animations have been pre-made with HTML5 canvas, and the animation code is public on the GitHub repository.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/anojs">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn" href="https://www.anojs.com">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -149,42 +244,53 @@
     </section>
 
     <section id="my-skills" class="my-skills" data-color="dark">
-      <h1 class="heading-light">My Skills</h1>
+      <h1 class="heading-light">
+        <img class="heading-icon" src="img/icons/section-icons/skill-light.png" alt="">
+        My Skills
+      </h1>
       <div class="container">
         <div class="skills-container-web">
           <div class="left">
             <li class="skill">
               Full-Stack Web Development
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
             </li>
             <li class="skill">
               HTML/CSS/Javascript
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
             </li>
             <li class="skill">
               Python
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
             </li>
             <li class="skill">
               Pythonic Web Frameworks (Django, Flask)
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
+            </li>
+            <li class="skill">
+              Webscraping
+              <img class="skill-icon" src="img/icons/code.png" alt="">
             </li>
           </div>
           <div class="right">
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img style="height: 50px; transform: translateX(-8px);" class="skill-icon" src="img/icons/code.png" alt="">
+              Web Automation - Selenium Webdriver
+            </li>
+            <li class="skill">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               UI/UX Design
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               UI Wireframing and Prototyping (Adobe Xd)
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               Digital Marketing
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               SEO Integration
             </li>
           </div>
@@ -192,37 +298,47 @@
         <div class="skills-container-mobile">
           <div class="left">
             <li class="skill">
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
               Full-Stack Web Development
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
               HTML/CSS/Javascript
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
               Python
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/code.png" alt="">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
               Pythonic Web Frameworks (Django, Flask)
+            </li>
+            <li class="skill">
+              <img class="skill-icon" src="img/icons/code.png" alt="">
+              Webscraping
             </li>
           </div>
           <div class="right">
+            <div class="left">
+              <li style=" transform: translateX(-8px);" class="skill">
+                <img style="height: 50px;" class="skill-icon" src="img/icons/code.png" alt="">
+                Web Automation - Selenium Webdriver
+              </li>
+            </div>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               UI/UX Design
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               UI Wireframing and Prototyping (Adobe Xd)
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               Digital Marketing
             </li>
             <li class="skill">
-              <img class="skill-icon" src="img/design.png" alt="">
+              <img class="skill-icon" src="img/icons/design.png" alt="">
               SEO Integration
             </li>
           </div>
@@ -231,16 +347,27 @@
     </section>
 
     <section id="work-experience" class="work-experience" data-color="light">
-      <h1 class="heading-dark">Work Experience</h1>
+      <h1 class="heading-dark">
+        <img class="heading-icon" src="img/icons/section-icons/portfolio-dark.png" alt="">
+        Work Experience
+      </h1>
       <div class="container">
         <div class="experiences-container">
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">Janurary 2020 - Present</strong>
-              <h3 class="experience-title">Website Designer/Developer Intern - UVFAB Systems Inc.</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">Janurary 2020 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                UVFAB Systems Inc.
+              </h5>
+              <h3 class="experience-title">Website Designer/Developer Intern</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At UVFAB Systems Inc., my job is to work with one other intern to completely redesign the corporate website using Wordpress and its respective plugins. We are currently trying to migrate all of the data and information from the old website into the new one which is in progress, as well as improve performance speed and initial load time.
@@ -249,11 +376,19 @@
           </div>
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">November 2019 - Present</strong>
-              <h3 class="experience-title">Frontend Web Developer Intern - Apollo DAE Inc.</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">November 2019 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                Apollo DAE Inc.
+              </h5>
+              <h3 class="experience-title">Frontend Web Developer Intern</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At Apollo DAE Inc., my job is to work on a team of different types of interns to build an MVP. Currently I'm learning Vue.js and Google Firebase to work on a project with about 6-8 other interns. The MVP will then be reviewed and will be escalated into a SaaS business if deemed successful.
@@ -262,11 +397,19 @@
           </div>
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">December 2019 - Present</strong>
-              <h3 class="experience-title">Software Development Mentor - Codeninjas</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">December 2019 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                Codeninjas
+              </h5>
+              <h3 class="experience-title">Software Development Mentor</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At Codeninjas, my job is to tutor and mentor kids aged 7-14 years old in a digital curriculum created by Codeninjas Corporate. Using digital e-books and a web-based GDP (Game Development Program) to complete this cirriculum and then help students through it.
@@ -275,11 +418,19 @@
           </div>
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">August 2019 - Present</strong>
-              <h3 class="experience-title">UI/UX Designer/Developer - Project EdConnect</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">August 2019 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                EdConnect
+              </h5>
+              <h3 class="experience-title">UI/UX Designer/Developer</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At EdConnect, my job is to wireframe, prototype, and then create the entire UI for the software and landing page. I also work with the backend developers to help integrate the data transfer from backend to frontend, and display it an a user-friendly way.
@@ -288,11 +439,19 @@
           </div>
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">September 2018 - Present</strong>
-              <h3 class="experience-title">Web Developer/Administrator - Synergize Ventures</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">September 2018 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                Synergize Ventures
+              </h5>
+              <h3 class="experience-title">Web Developer/Administrator</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At Synergize Ventures, my job is to create, design, modify, and maintain the official corporate landing page. I handle the development side, as well the DevOps procedures such as configuring the DNS nameservers or re-configuring the website to new web hosting services.
@@ -301,11 +460,19 @@
           </div>
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">March 2019 - Present</strong>
-              <h3 class="experience-title">Teen Leader Volunteer - Trivalley CoderDojo</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">March 2019 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                Trivalley CoderDojo
+              </h5>
+              <h3 class="experience-title">Teen Leader Volunteer</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At Trivalley CoderDojo, I volunteer as a Teen Leader on the Teen Leadership Council, a group of high schoolers that help partially run the club and help make decisions to determine the course of the organization. I play an in-session role, helping mentor kids and facilitating parents, students, and other volunteers.
@@ -314,11 +481,19 @@
           </div>
           <div class="experience">
             <div class="experience-head">
-              <strong class="experience-date">August 2019 - Present</strong>
-              <h3 class="experience-title">Student Leader - TeenTechSF GLOBAL</h3>
+              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
+              <span class="experience-date">August 2019 - Present</span>
+              <h5 class="experience-org">
+                <img class="location-icon" src="img/icons/location.png" alt="">
+                TeenTechSF GLOBAL
+              </h5>
+              <h3 class="experience-title">Student Leader</h3>
             </div>
             <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At TeenTechSF GLOBAL, I am a volunteer to help organize and speak at STEM events in which TeenTechSF is either a partner, sponsor, or affiliate of. Our main mission is to spread the word and knowledge of STEM fields, specifically software and hardware products.
@@ -331,16 +506,23 @@
     </section>
 
     <section id="past-competitions" class="past-competitions" data-color="dark">
-      <h1 class="heading-light">Past Competitions</h1>
+      <h1 class="heading-light">
+        <img class="heading-icon" src="img/icons/section-icons/medal-light.png" alt="">
+        Past Competitions
+      </h1>
       <div class="container">
         <div class="competitions-container">
           <div class="competition">
             <div class="competition-head">
-              <h5 class="competition-date">November 16-17, 2019</h5>
+              <img class="date-icon" src="img/icons/calendars/calendar-light.png" alt="">
+              <strong class="competition-date">November 16-17, 2019</strong>
               <h3 class="competition-title">Atoms & Bits - First Place and Best Website</h3>
             </div>
             <div class="competition-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-light.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At Atoms & Bits, I formed and lead a team of three other people, and together we created Ano.js. I handled all of the product design and creation, while the others focused on the presentation and financial part of the project. We won the entire competition due to the nice UI, simplistic functionality, and the amazing business model.
@@ -349,11 +531,15 @@
           </div>
           <div class="competition">
             <div class="competition-head">
-              <h5 class="competition-date">October 12-13, 2019</h5>
+              <img class="date-icon" src="img/icons/calendars/calendar-light.png" alt="">
+              <strong class="competition-date">October 12-13, 2019</strong>
               <h3 class="competition-title">TeenTechSF Civic Hackathon - Second Place</h3>
             </div>
             <div class="competition-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-light.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 At the TeenTechSF Civic Hackathon, I formed and lead a team of two other people, and we created Collaboratory. Collaboratory is a web-based project organizer, making working on projects with others easier to carry out. Unfortunately, the code was corrupted and lost shortly after, so it is not up for reference.
@@ -362,11 +548,15 @@
           </div>
           <div class="competition">
             <div class="competition-head">
-              <h5 class="competition-date">April 20-21, 2019</h5>
+              <img class="date-icon" src="img/icons/calendars/calendar-light.png" alt="">
+              <strong class="competition-date">April 20-21, 2019</strong>
               <h3 class="competition-title">Trivalley Crypto Hacks - Most Creative</h3>
             </div>
             <div class="competition-bottom">
-              <button class="see-more" onclick="myFunction(this)">&rarr; More Info</button>
+              <button class="see-more" onclick="myFunction(this)">
+                <img src="img/icons/arrows/right-arrow-light.png" alt="">
+                See More
+              </button>
               <br>
               <p style="display: none;" id="more">
                 Trivalley Crypto Hacks was my first hackathon, and I was invited by friend who was organizing the event. I was on a team of one, and I created a facial recognition program, where a person scans their face for data samples and then their face will be detected and labelled in real time. My project won an honorable mention, which is not bad for a first.
@@ -384,13 +574,17 @@
             <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Solarhacks - Mentor</li>
             <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>Gigahacks - Mentor</li>
             <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>DVHacks - Guest</li>
+            <li style="list-style: none;" data-aos="fade-left"><span class="fa-li"><i class="fas fa-angle-right"></i></span>DojoHacks 2020 - Mentor</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section id="future-ventures" class="future-ventures" data-color="light">
-      <h1 class="heading-dark" style="margin-bottom: 25px;">Future Ventures</h1>
+      <h1 class="heading-dark" style="margin-bottom: 25px;">
+        <img class="heading-icon" src="img/icons/section-icons/rocket-dark.png" alt="">
+        Future Ventures
+      </h1>
       <div class="future-ventures-container">
         <div>
           <h3>Things to Learn</h3>
@@ -420,7 +614,10 @@
     </section>
 
     <section id="contact-me" class="contact-me" style="background-color: var(--color-blue);">
-      <h1 class="heading-light">Let's Get in Touch!</h1>
+      <h1 class="heading-light">
+        <img class="heading-icon" src="img/icons/section-icons/contact-light.png" alt="">
+        Let's Get in Touch!
+      </h1>
       <div class="container">
         <div class="contact-container">
           <div class="social-media">
