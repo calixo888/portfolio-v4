@@ -56,7 +56,7 @@
 
   /* ABOUT ME */
   .about-me-container {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 
   .calix-container {
@@ -69,6 +69,21 @@
 
   .statistics-container div {
     text-align: left;
+  }
+
+
+  /* MY PROJECTS */
+  .project {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 15px;
+  }
+
+  .project-logo-container {
+    text-align: center;
+  }
+
+  .project-logo {
+    width: 100px;
   }
 
 
