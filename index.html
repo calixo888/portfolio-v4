@@ -25,15 +25,15 @@
 
             <div class="navigation__background">&nbsp;</div>
 
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
+            <nav class="navigation__nav text-center">
+                <ul class="navigation__list" style="text-align: left; display: inline-block; padding-left: 0 !important;">
                     <li class="navigation__item"><a href="#about-me" class="navigation__link">
                       <img class="heading-icon" src="img/icons/section-icons/user-dark.png" alt="">
                       About me
                     </a></li>
                     <li class="navigation__item"><a href="#my-projects" class="navigation__link">
                       <img class="heading-icon" src="img/icons/section-icons/project-dark.png" alt="">
-                      My Projects
+                      Projects
                     </a></li>
                     <li class="navigation__item"><a href="#my-skills" class="navigation__link">
                       <img class="heading-icon" src="img/icons/section-icons/skill-dark.png" alt="">
@@ -95,13 +95,44 @@
     <section id="my-projects" class="my-projects" data-color="light">
       <h1 style="margin-bottom: 0 !important;" class="heading-dark">
         <img class="heading-icon" src="img/icons/section-icons/project-dark.png" alt="">
-        My Projects
+        Projects
       </h1>
       <div class="projects-container">
         <div class="container">
+          <h1 class="mt-5">My Projects</h1>
           <p class="mt-4 mb-5">
             These are all of the projects I've completed! I always maintain and improve each one, and I am always open to others joining the team or helping test out the software!
           </p>
+          <div class="project-container">
+            <div class="project" data-aos="fade-left" data-aos="fade-left">
+              <div class="project-logo-container">
+                <img class="project-logo" src="img/logos/selectivechat.png" alt="Project Logo">
+              </div>
+              <div>
+                <h5 class="project-name">SelectiveChat</h5>
+                <p class="project-description">
+                  SelectiveChat is a web-based chatting application that requires no account registration or profile creation. Simply a free messaging platform for those without emails or subsequent information to chat amongst themselves. This was made using Django Channels and a Daphne file server. This idea was inspired by a close friend of mine who is homeschooled, and this project is dedicated to her.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn" href="https://www.github.com/calixo888/selectivechat">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn" href="http://www.selectivechat.com">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
+              </div>
+            </div>
           <div class="project-container">
             <div class="project" data-aos="fade-left" data-aos="fade-left">
               <div class="project-logo-container">
@@ -234,6 +265,68 @@
                     GitHub Repo
                   </a>
                   <a class="btn btn-secondary project-btn" href="https://www.anojs.com">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h1 class="mt-5">Team Projects</h1>
+            <p class="mt-4 mb-5">
+              These are all of the projects that I've been or have worked on with other co-workers and friends, where I played a certain role in the development of the whole project.
+            </p>
+            <div class="project" data-aos="fade-left">
+              <div class="project-container-logo">
+                <img class="project-logo" src="img/logos/no-logo.png" alt="Project Logo">
+              </div>
+              <div>
+                <h5 class="project-name">EdConnect</h5>
+                <p class="project-description">
+                  EdConnect is a web-based education platform, optimizing the use of machine learning to drive forward the future of grading and evaluation in schools and organizations. My role in this project is as the frontend web developer and UI/UX designer. I wireframe and prototype different UI designs and integrate them into websites, as well as working with backend developers to transfer data from the backend server to the UI.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn disabled" href="#">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn disabled" href="#">
+                    <img class="github-logo" src="img/icons/project.png" alt="">
+                    Check Out Project
+                  </a>
+                  <a class="btn btn-info project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/test.png" alt="">
+                    Become a Tester!
+                  </a>
+                  <a class="btn btn-success project-btn" href="#contact-me">
+                    <img class="github-logo" src="img/icons/team.png" alt="">
+                    Join the Team!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project" data-aos="fade-left">
+              <div class="project-container-logo">
+                <img class="project-logo" src="img/logos/no-logo.png" alt="Project Logo">
+              </div>
+              <div>
+                <h5 class="project-name">HackerQ</h5>
+                <p class="project-description">
+                  HackerQ is a cross-platform mobile application designed to help hackathon organizers manage their attendees more efficiently, as well as allowing hackathon participants to have a more enjoyable time competing at the event. My role in this project is the main frontend web developer, designing and developing the landing page for the application.
+                </p>
+                <div class="project-btns">
+                  <a class="btn btn-dark github-btn disabled" href="#">
+                    <img class="github-logo" src="img/social-media/github.png" alt="">
+                    GitHub Repo
+                  </a>
+                  <a class="btn btn-secondary project-btn disabled" href="#">
                     <img class="github-logo" src="img/icons/project.png" alt="">
                     Check Out Project
                   </a>
@@ -429,27 +522,6 @@
           <div class="experience" data-aos="fade-up-left">
             <div class="experience-head">
               <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
-              <span class="experience-date">August 2019 - Present</span>
-              <h5 class="experience-org">
-                <img class="location-icon" src="img/icons/location.png" alt="">
-                EdConnect
-              </h5>
-              <h3 class="experience-title">UI/UX Designer/Developer</h3>
-            </div>
-            <div class="experience-bottom">
-              <button class="see-more" onclick="myFunction(this)">
-                <img src="img/icons/arrows/right-arrow-dark.png" alt="">
-                See More
-              </button>
-              <br>
-              <p style="display: none;" id="more">
-                At EdConnect, my job is to wireframe, prototype, and then create the entire UI for the software and landing page. I also work with the backend developers to help integrate the data transfer from backend to frontend, and display it an a user-friendly way.
-              </p>
-            </div>
-          </div>
-          <div class="experience" data-aos="fade-up-right">
-            <div class="experience-head">
-              <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
               <span class="experience-date">September 2018 - Present</span>
               <h5 class="experience-org">
                 <img class="location-icon" src="img/icons/location.png" alt="">
@@ -468,7 +540,7 @@
               </p>
             </div>
           </div>
-          <div class="experience" data-aos="fade-up-left">
+          <div class="experience" data-aos="fade-up-right">
             <div class="experience-head">
               <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
               <span class="experience-date">March 2019 - Present</span>
@@ -489,7 +561,7 @@
               </p>
             </div>
           </div>
-          <div class="experience" data-aos="fade-up-right">
+          <div class="experience" data-aos="fade-up-left">
             <div class="experience-head">
               <img class="date-icon" src="img/icons/calendars/calendar-dark.png" alt="">
               <span class="experience-date">August 2019 - Present</span>
