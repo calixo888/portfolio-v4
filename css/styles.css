@@ -253,6 +253,7 @@ li, p {
 
 .other-project-title {
   margin-top: 20px;
+  word-wrap: break-word;
 }
 
 .other-project-description {
