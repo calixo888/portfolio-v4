@@ -275,46 +275,20 @@ li, p {
   color: var(--color-green);
 }
 
-.skills-container-web {
+.skills-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
 }
 
-.left .skill-icon {
-  height: 50px;
+.skills-icon {
+  width: 40px;
+  transform: translateY(-3px);
+  margin-right: 5px;
 }
 
-.right .skill-icon {
-  height: 35px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-items: center;
+.skills-item {
   list-style: none;
-  height: 75px;
-}
-
-.left li {
-  padding-right: 50px;
-  justify-content: flex-end;
-  border-right: 1px solid var(--color-green);
-}
-
-.right li {
-  padding-left: 50px;
-  justify-content: flex-start;
-  border-left: 1px solid var(--color-green);
-}
-
-.left img {
-  margin-left: 15px;
-}
-
-.right img {
-  margin-right: 15px;
 }
 
 
