@@ -253,18 +253,15 @@ li, p {
 
 .other-project-title {
   margin-top: 20px;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
 }
 
 .other-project-description {
   margin: 0 5px;
-  /* margin-bottom: 70px; */
 }
 
 .other-tags {
   margin-top: 15px;
-  /* position: absolute;
-  bottom: 30px; */
 }
 
 .other-tags .tag {
