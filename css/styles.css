@@ -180,6 +180,97 @@ li, p {
   transform: translateY(-1px);
 }
 
+.project-icon {
+  width: 30px;
+  transform: translateY(-2px);
+  margin-right: 5px;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: rgba(7, 39, 64, 0.8);
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: var(--color-green);
+  margin: 3px;
+}
+
+.out-btns {
+  justify-self: flex-end;
+}
+
+.out-btn-icon {
+  width: 30px;
+}
+
+.out-btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.github-out-btn-icon {
+  transform: translateY(3px);
+}
+
+.other-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+}
+
+.other-options-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.other-out-btns {
+  justify-self: flex-end !important;
+}
+
+.other-project {
+  position: relative;
+  background-color: rgba(7, 39, 64, 0.75);
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+.other-project * {
+  color: var(--color-green);
+}
+
+.other-project-icon {
+  width: 50px;
+}
+
+.other-project-title {
+  margin-top: 20px;
+}
+
+.other-project-description {
+  margin: 0 5px;
+  /* margin-bottom: 70px; */
+}
+
+.other-tags {
+  margin-top: 15px;
+  /* position: absolute;
+  bottom: 30px; */
+}
+
+.other-tags .tag {
+  background-color: rgba(147, 224, 201, 0.95);
+  color: var(--color-blue);
+}
+
 
 /* MY SKILLS */
 .my-skills * {

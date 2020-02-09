@@ -75,7 +75,7 @@ $(document).ready(function(){
         console.log($(".navigation__checkbox").val())
     });
 
-    $('.project a').on('click', function(event) {
+    $('.my-projects a').on('click', function(event) {
         event.preventDefault();
         var hash = this.hash;
         if (hash) {
