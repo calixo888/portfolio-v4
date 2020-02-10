@@ -97,40 +97,6 @@
   }
 
 
-  /* MY SKILLS */
-  .skills-container-web {
-    display: none;
-  }
-
-  .skills-container-mobile {
-    display: block;
-  }
-
-  .skill {
-    border-left: none !important;
-    border-right: none !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-  }
-
-  .skill-icon {
-    margin-right: 15px !important;
-    margin-left: 0 !important;
-  }
-
-  .right {
-    transform: translateX(10px);
-  }
-
-  .right .skill-icon {
-    margin-right: 20px !important;
-  }
-
-  .left li {
-    justify-content: flex-start;
-  }
-
-
   /* WORK EXPERIENCE */
   .experiences-container {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));

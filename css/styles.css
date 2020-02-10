@@ -388,6 +388,12 @@ li, p {
   margin: 0 50px;
 }
 
+.future-venture-icon {
+  height: 40px;
+  margin-right: 5px;
+  transform: translateY(-4px);
+}
+
 
 /* CONTACT ME */
 .contact-me * {
