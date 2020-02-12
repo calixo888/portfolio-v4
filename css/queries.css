@@ -1,10 +1,43 @@
-@media (min-width: 1000px) {
-  .skills-container-web {
-    display: grid;
+@media (max-width: 1000px) {
+  /* ABOUT ME */
+  .about-me-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
 
-  .skills-container-mobile {
-    display: none;
+  .calix-container {
+    text-align: center;
+  }
+
+  .statistics-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .statistics-container div {
+    text-align: left;
+  }
+
+
+  /* MY PROJECTS */
+  .project {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-gap: 15px;
+  }
+
+  .project-logo {
+    width: 100px;
+  }
+
+  .options-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-gap: 30px;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+  }
+
+  .out-btns {
+    justify-self: flex-start;
   }
 }
 
@@ -52,48 +85,6 @@
   /* HEADER */
   .horizontal-container {
     width: 100% !important;
-  }
-
-
-  /* ABOUT ME */
-  .about-me-container {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  }
-
-  .calix-container {
-    text-align: center;
-  }
-
-  .statistics-container {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-
-  .statistics-container div {
-    text-align: left;
-  }
-
-
-  /* MY PROJECTS */
-  .project {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 15px;
-  }
-
-  .project-logo {
-    width: 100px;
-  }
-
-  .options-grid {
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    grid-gap: 30px;
-  }
-
-  .tags {
-    flex-wrap: wrap;
-  }
-
-  .out-btns {
-    justify-self: flex-start;
   }
 
 
