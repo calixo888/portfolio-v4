@@ -93,11 +93,11 @@ window.addEventListener('scroll', function() {
 
   if(position.top < window.innerHeight && position.bottom >= 0) {
     setTimeout(function(){
-          contribution_odometer.innerHTML = 1582;
+          contribution_odometer.innerHTML = 1787;
       }, 1500);
 
       setTimeout(function(){
-          repo_odometer.innerHTML = 50;
+          repo_odometer.innerHTML = 53;
       }, 1500);
       setTimeout(function(){
           years_odometer.innerHTML = 1;
