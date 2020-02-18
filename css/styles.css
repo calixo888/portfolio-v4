@@ -41,6 +41,24 @@ li, p {
 }
 
 
+/* BUTTONS */
+.ghost-cta-button {
+  background-color: transparent;
+  border: 2px solid var(--color-blue);
+  padding: 10px 15px;
+  color: var(--color-blue);
+  border-radius: 4px;
+  transition: all .2s;
+  font-size: 20px;
+}
+
+.ghost-cta-button:hover {
+  background-color: var(--color-blue);
+  color: white;
+  text-decoration: none;
+}
+
+
 /* HEADERS */
 .main-heading {
   font-size: 65px;
@@ -301,6 +319,7 @@ li, p {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 50px;
+  margin-bottom: 30px;
 }
 
 .experience-head {
