@@ -235,6 +235,10 @@ li, p {
   margin-right: 10px;
 }
 
+.out-btn:hover {
+  text-decoration: none;
+}
+
 .github-out-btn-icon {
   transform: translateY(3px);
 }
