@@ -384,6 +384,11 @@ li, p {
   border-top: 1px solid var(--color-green);
 }
 
+.competition-title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .see-more {
   background-color: transparent;
   border: none;
