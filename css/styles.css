@@ -275,11 +275,13 @@ li, p {
 
 .other-project-title {
   margin-top: 20px;
+  font-size: 35px;
   /* word-wrap: break-word; */
 }
 
 .other-project-description {
   margin: 0 5px;
+  font-size: 17px;
 }
 
 .other-tags {
@@ -382,11 +384,6 @@ li, p {
 .competition-bottom {
   padding: 10px 0;
   border-top: 1px solid var(--color-green);
-}
-
-.competition-title {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .see-more {
