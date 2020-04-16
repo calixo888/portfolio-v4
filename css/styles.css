@@ -384,7 +384,7 @@ li, p {
 
 /* PAST COMPETITIONS */
 .past-competitions * {
-  color: var(--color-green);
+  color: var(--color-blue);
 }
 
 .competitions-container {
@@ -395,12 +395,12 @@ li, p {
 
 .competition-head {
   padding: 10px 0;
-  border-bottom: 1px solid var(--color-green);
+  border-bottom: 1px solid var(--color-blue);
 }
 
 .competition-bottom {
   padding: 10px 0;
-  border-top: 1px solid var(--color-green);
+  border-top: 1px solid var(--color-blue);
 }
 
 .see-more {
