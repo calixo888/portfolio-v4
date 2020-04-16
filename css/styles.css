@@ -31,6 +31,23 @@ li, p {
 }
 
 
+/* NAVBAR STYLES */
+.nav-logo {
+  height: 60px;
+}
+
+.fixed-top.scrolled {
+  background-color: var(--color-blue) !important;
+  transition: all 200ms linear;
+
+  box-shadow: 0 3px 15px rgba(0,0,0,.3);
+}
+
+.nav-link {
+  color: var(--color-green) !important;
+}
+
+
 /* BACKGROUND COLORS */
 .color-light {
   background-color: var(--color-green);
