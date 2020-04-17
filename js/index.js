@@ -65,7 +65,7 @@ $(document).ready(function(){
     $('.navigation__link').on('click', function(event) {
         event.preventDefault();
         var hash = this.hash;
-        $('html, body').animate({scrollTop: $(hash).offset().top - 60}, 900);
+        $('html, body').animate({scrollTop: $(hash).offset().top - 70}, 900);
         $(".navigation__checkbox").prop("checked", false);
         console.log($(".navigation__checkbox").val())
     });
