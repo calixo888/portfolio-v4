@@ -42,24 +42,11 @@ function myFunction(event) {
   var btnText = event;
   var extraText = btnText.parentNode.querySelector("p");
 
-  section_class = event.parentNode.parentNode.parentNode.parentNode.parentNode.className
-  console.log(section_class)
-
   if (extraText.style.display !== "none") {
-    if (section_class == "past-competitions") {
-      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/right-arrow-light.png' alt=''> See More";
-    }
-    else {
-      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/right-arrow-dark.png' alt=''> See More";
-    }
+    btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/right-arrow-dark.png' alt=''> See More";
     extraText.style.display = "none";
   } else {
-    if (section_class == "past-competitions") {
-      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/down-arrow-light.png' alt=''> See Less";
-    }
-    else {
-      btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/down-arrow-dark.png' alt=''> See Less";
-    }
+    btnText.innerHTML = "<img class='arrow-icon' src='img/icons/arrows/down-arrow-dark.png' alt=''> See Less";
     extraText.style.display = "inline";
   }
 }
