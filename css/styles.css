@@ -60,7 +60,23 @@ li, p {
 
 
 /* BUTTONS */
-.ghost-cta-button {
+.ghost-cta-button-light {
+  background-color: transparent;
+  border: 2px solid var(--color-green);
+  padding: 10px 15px;
+  color: var(--color-green);
+  border-radius: 4px;
+  transition: all .2s;
+  font-size: 20px;
+}
+
+.ghost-cta-button-light:hover {
+  background-color: var(--color-green);
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+.ghost-cta-button-dark {
   background-color: transparent;
   border: 2px solid var(--color-blue);
   padding: 10px 15px;
@@ -70,7 +86,7 @@ li, p {
   font-size: 20px;
 }
 
-.ghost-cta-button:hover {
+.ghost-cta-button-dark:hover {
   background-color: var(--color-blue);
   color: white;
   text-decoration: none;
