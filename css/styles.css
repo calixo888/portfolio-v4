@@ -48,6 +48,10 @@ li, p {
   margin-right: 12.5px;
 }
 
+.resume-btn {
+  transform: translateY(8px);
+}
+
 
 /* BACKGROUND COLORS */
 .color-light {

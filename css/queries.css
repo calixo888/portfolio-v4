@@ -39,6 +39,11 @@
   .out-btns {
     justify-self: flex-start;
   }
+
+  .resume-btn {
+    transform: none !important;
+    margin: 15px 0;
+  }
 }
 
 

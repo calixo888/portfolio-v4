@@ -1,12 +1,18 @@
 AOS.init();
 
 // NAVBAR JS
-$(function () {
-  $(document).scroll(function () {
-	  var $nav = $(".fixed-top");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
-});
+// Making navbar a block if on mobile
+if ($(window).width() <= 768){
+  var $nav = $(".fixed-top");
+  $nav.addClass("scrolled");
+} else {
+  $(function () {
+    $(document).scroll(function () {
+  	  var $nav = $(".fixed-top");
+  	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  	});
+  });
+}
 
 $(window).scroll(function() {
 
@@ -61,25 +67,24 @@ VANTA.RINGS({
   scaleMobile: 1.00,
 })
 
-$(document).ready(function(){
-    $('.navigation__link').on('click', function(event) {
-        event.preventDefault();
-        var hash = this.hash;
-        $('html, body').animate({scrollTop: $(hash).offset().top - 70}, 900);
-        $(".navigation__checkbox").prop("checked", false);
-        console.log($(".navigation__checkbox").val())
-    });
+$(document).ready(function() {
+  $('.navigation__link').on('click', function(event) {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({scrollTop: $(hash).offset().top - 70}, 900);
+      $(".navigation__checkbox").prop("checked", false);
+  });
 
-    $('.my-projects a').on('click', function(event) {
-        event.preventDefault();
-        var hash = this.hash;
-        if (hash) {
-          $('html, body').animate({scrollTop: $(hash).offset().top}, 900);
-        }
-        else {
-          open(this.getAttribute('href'));
-        }
-    });
+  $('.my-projects a').on('click', function(event) {
+      event.preventDefault();
+      var hash = this.hash;
+      if (hash) {
+        $('html, body').animate({scrollTop: $(hash).offset().top}, 900);
+      }
+      else {
+        open(this.getAttribute('href'));
+      }
+  });
 })
 
 window.addEventListener('scroll', function() {
