@@ -54,6 +54,12 @@
   }
 
 
+  /* MAKING GRID GAP SMALLER IN ABOUT US STATISTICS */
+  .statistics-container {
+    grid-gap: 5px !important;
+  }
+
+
   /* NAVIGATION */
   .navigation__button {
     top: 1.5rem !important;

@@ -173,6 +173,18 @@ li, p {
   font-weight: bold;
 }
 
+.resumes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+
+  margin-top: 30px;
+}
+
+.resumes-container > * {
+  text-align: center;
+}
+
 .odometer {
   transform: translateY(-2px);
 }
