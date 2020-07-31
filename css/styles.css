@@ -209,8 +209,8 @@ li, p {
 
 .project {
   display: grid;
-  grid-template-columns: 40% 1fr;
-  grid-gap: 75px;
+  grid-template-columns: 45% 1fr;
+  grid-gap: 30px;
 }
 
 .project:not(:last-child) {
