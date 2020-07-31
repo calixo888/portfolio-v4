@@ -23,10 +23,6 @@
     grid-gap: 15px;
   }
 
-  .project-logo {
-    width: 100px;
-  }
-
   .options-grid {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     grid-gap: 30px;

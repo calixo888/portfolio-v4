@@ -209,7 +209,7 @@ li, p {
 
 .project {
   display: grid;
-  grid-template-columns: 10% 1fr;
+  grid-template-columns: 40% 1fr;
   grid-gap: 75px;
 }
 
@@ -256,7 +256,7 @@ li, p {
 
 .options-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 70% 1fr;
 }
 
 .tags {
@@ -291,6 +291,27 @@ li, p {
 
 .github-out-btn-icon {
   transform: translateY(3px);
+}
+
+.websites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.website img {
+  width: 100%;
+}
+
+.website-btns {
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  grid-gap: 10px;
+  justify-content: flex-end;
+}
+
+.website-btns .github-out-btn-icon {
+  transform: translateY(2.5px);
 }
 
 .other-projects-grid {
